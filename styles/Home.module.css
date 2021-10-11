@@ -38,7 +38,7 @@
 }
 
 .ul li::before {
-  content: "◆";
+  content: "●";
   color: #53d7ff;
   padding-right: 6px;
 }
