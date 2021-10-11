@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+.contents a:hover {
+  color: #b9b4b4;
+}
+
 .contents {
   font-size: 16px;
   color: #000;

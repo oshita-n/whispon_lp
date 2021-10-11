@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.contents}>
           <h2>大下範晃（NoriakiOshita）</h2>
-          <p>AIエンジニアとして数年間働き、現在はデザイナーとしても活動しています</p>
+          <p>AIエンジニアとして働きつつ、デザイナーとしても活動しています</p>
           <h3>経歴</h3>
           <ul className={styles.ul}>
             <li>2013年 北海道札幌琴似工業高等学校 卒業</li>
@@ -22,6 +22,11 @@ const Home: NextPage = () => {
             <li>2020年- 個人事業主</li>
           </ul>
         </div>
+        <div className={styles.contents}>
+          <h2>サービス</h2>
+          <a href="https://otooto.dev">テキスト読み上げサービス「Oto」</a>
+        </div>
+
         <div className={styles.contents}>
           <h2>お問い合わせ</h2>
           <p>oshita-n@whispon.com</p>
