@@ -9,45 +9,22 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Header />
-
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        <div className={styles.contents}>
+          <h2>大下範晃（NoriakiOshita）</h2>
+          <p>AIエンジニアとして数年間働き、現在はデザイナーとしても活動しています</p>
+          <h3>経歴</h3>
+          <ul className={styles.ul}>
+            <li>2013年 北海道札幌琴似工業高等学校 卒業</li>
+            <li>2018年 北海道情報大学経営情報学部システム情報学科 卒業</li>
+            <li>2019年 AIQ株式会社 機械学習エンジニア</li>
+            <li>2019年-2020年 株式会社アイデミー データサイエンティスト、コンテンツ編集員</li>
+            <li>2020年- 個人事業主</li>
+          </ul>
+        </div>
+        <div className={styles.contents}>
+          <h2>お問い合わせ</h2>
+          <p>oshita-n@whispon.com</p>
         </div>
       </main>
 
