@@ -4,6 +4,10 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import { animate } from "motion"
+
+if (process.browser) {
+}
 
 const Home: NextPage = () => {
   return (
@@ -12,14 +16,14 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.contents}>
           <h2>大下範晃（NoriakiOshita）</h2>
-          <p>AIエンジニアとして働きつつ、デザイナーとしても活動しています</p>
+          <p>フリーランスのAIエンジニアとして働いています。</p>
           <h3>経歴</h3>
           <ul className={styles.ul}>
             <li>2013年 北海道札幌琴似工業高等学校 電子機械化 卒業</li>
             <li>2018年 北海道情報大学経営情報学部 システム情報学科 卒業</li>
             <li>2018-2019年 AIQ株式会社 機械学習エンジニア</li>
             <li>2019-2020年 株式会社アイデミー データサイエンティスト、コンテンツ編集員</li>
-            <li>2020年- 個人事業主（AIエンジニア、フロントエンドエンジニア、デザイナー）</li>
+            <li>2020年- 個人事業主（AI、機械学習、数理最適化、フロントエンドなど）</li>
           </ul>
         </div>
         <div className={styles.contents}>
