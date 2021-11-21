@@ -43,6 +43,7 @@ const Home: NextPage = () => {
       </main>
 
       <Footer />
+
     </div>
   )
 }
