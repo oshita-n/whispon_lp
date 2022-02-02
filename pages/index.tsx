@@ -18,7 +18,10 @@ const Home: NextPage = () => {
           <h2>大下範晃（NoriakiOshita）</h2>
           <p>フリーランスのAIエンジニアとして働いています。<br />
           メタヒューリスティックスを使ったシフト作成AI、図面AI、電力需要予測のデータ分析、<br />
-          自然言語処理を利用したBotAIサービスの構築などの開発に携わってきました。</p>
+          自然言語処理を利用したBotAIサービスの構築などの開発に携わってきました。AI開発のほかにもウェブ開発も可能です。</p>
+          <h3>スキル（言語、フレームワークなど）</h3>
+          <p>Python、PHP、JavaScript</p>
+          <p>TensorFlow、PyTorch、Next.jsなど</p>
           <h3>経歴</h3>
           <ul className={styles.ul}>
             <li>2013年 北海道札幌琴似工業高等学校 電子機械化 卒業</li>
