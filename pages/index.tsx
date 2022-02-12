@@ -30,17 +30,15 @@ const Home: NextPage = () => {
             <li>2019-2020年 株式会社アイデミー データサイエンティスト、コンテンツ編集員</li>
             <li>2020年- 個人事業主（AI、機械学習、数理最適化、フロントエンドなど）</li>
           </ul>
-        </div>
-        <div className={styles.contents}>
-          <h2>サービス</h2>
+        
+          <h3>サービス</h3>
           <a href="https://otooto.dev">テキスト読み上げサービス「Oto」</a>
-        </div>
-        <div className={styles.contents}>
-          <h2>ブログ</h2>
-          <a href="https://qiita.com/NoriakiOshita">Qiitaに書いた記事</a>
-        </div>
-        <div className={styles.contents}>
-          <h2>お問い合わせ</h2>
+          <h3>ブログ</h3>
+          <ul className={styles.ul}>
+            <li><a href="https://kasupekira.com">技術ブログ</a></li>
+            <li><a href="https://qiita.com/NoriakiOshita">Qiita</a></li>
+          </ul>
+          <h3>お問い合わせ</h3>
           <p>oshita-n@whispon.com</p>
         </div>
       </main>
