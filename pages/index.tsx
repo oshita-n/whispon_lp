@@ -31,8 +31,8 @@ const Home: NextPage = () => {
             <li>2020年- 個人事業主（AI、機械学習、数理最適化、フロントエンドなど）</li>
           </ul>
         
-          <h3>サービス</h3>
-          <a href="https://otooto.dev">テキスト読み上げサービス「Oto」</a>
+          {/* <h3>サービス</h3>
+          <a href="https://otooto.dev">テキスト読み上げサービス「Oto」</a> */}
           <h3>ブログ</h3>
           <ul className={styles.ul}>
             <li><a href="https://kasupekira.com">技術ブログ</a></li>
