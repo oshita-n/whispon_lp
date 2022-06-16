@@ -38,6 +38,7 @@ const Home: NextPage = () => {
             <li><a href="https://qiita.com/NoriakiOshita">Qiita</a></li>
           </ul>
           <h3>お問い合わせ</h3>
+          <p>AI受託開発のご依頼、AI開発の進め方などに関してのご相談お待ちしております。</p>
           <p>oshita-n@whispon.com</p>
         </div>
       </main>
