@@ -15,20 +15,19 @@ const Home: NextPage = () => {
       <Header />
       <main className={styles.main}>
         <div className={styles.contents}>
-          <h2>大下範晃（NoriakiOshita）</h2>
-          <p>フリーランスのAIエンジニアとして働いています。<br />
+          <h2>Whispon合同会社<br/>代表社員 大下範晃（NoriakiOshita）</h2>
+          <p>
           メタヒューリスティックスを使ったシフト作成AI、図面AI、電力需要予測のデータ分析、<br />
-          自然言語処理を利用したBotAIサービスの構築などの開発に携わってきました。AI開発のほかにもウェブ開発も可能です。</p>
-          <h3>スキル（言語、フレームワークなど）</h3>
-          <p>Python、PHP、JavaScript</p>
-          <p>TensorFlow、PyTorch、Next.jsなど</p>
+          自然言語処理を利用したBotAIサービスの構築などの開発に携わってきました。
+          </p>
           <h3>経歴</h3>
           <ul className={styles.ul}>
             <li>2013年 北海道札幌琴似工業高等学校 電子機械化 卒業</li>
             <li>2018年 北海道情報大学経営情報学部 システム情報学科 卒業</li>
             <li>2018-2019年 AIQ株式会社 機械学習エンジニア</li>
             <li>2019-2020年 株式会社アイデミー データサイエンティスト、コンテンツ編集員</li>
-            <li>2020年- 個人事業主（AI、機械学習、数理最適化、フロントエンドなど）</li>
+            <li>2020-2022年6月 個人事業主（AI、機械学習、数理最適化、フロントエンドなど）</li>
+            <li>2022年6月 Whispon合同会社 代表社員</li>
           </ul>
         
           {/* <h3>サービス</h3>
