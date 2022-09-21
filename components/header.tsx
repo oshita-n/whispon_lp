@@ -6,8 +6,8 @@ const Header: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>NoriakiOshita</title>
-        <meta name="description" content="NoriakiOshita" />
+        <title>Whispon合同会社</title>
+        <meta name="description" content="Whispon合同会社" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header_logo}>

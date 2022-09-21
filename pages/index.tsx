@@ -26,17 +26,19 @@ const Home: NextPage = () => {
             <li>2018年 北海道情報大学経営情報学部 システム情報学科 卒業</li>
             <li>2018-2019年 AIQ株式会社 機械学習エンジニア</li>
             <li>2019-2020年 株式会社アイデミー データサイエンティスト、コンテンツ編集員</li>
-            <li>2020年-2022年6月 個人事業主（AI、機械学習、数理最適化、フロントエンドなど）</li>
-            <li>2022年6月- Whispon合同会社 設立</li>
+            <li>2020-2022年6月 個人事業主（AI、機械学習、数理最適化、フロントエンドなど）</li>
+            <li>2022年6月 Whispon合同会社 代表社員</li>
           </ul>
-        </div>
-
-        <div className={styles.contents}>
-          <h2>ブログ</h2>
-          <a href="https://qiita.com/NoriakiOshita">Qiitaに書いた記事</a>
-        </div>
-        <div className={styles.contents}>
-          <h2>お問い合わせ</h2>
+        
+          {/* <h3>サービス</h3>
+          <a href="https://otooto.dev">テキスト読み上げサービス「Oto」</a> */}
+          <h3>ブログ</h3>
+          <ul className={styles.ul}>
+            <li><a href="https://kasupekira.com">技術ブログ</a></li>
+            <li><a href="https://qiita.com/NoriakiOshita">Qiita</a></li>
+          </ul>
+          <h3>お問い合わせ</h3>
+          <p>AI受託開発のご依頼、AI開発の進め方などに関してのご相談お待ちしております。</p>
           <p>oshita-n@whispon.com</p>
         </div>
       </main>

@@ -11,15 +11,15 @@
 }
 
 .contents h2 {
-  text-align: center;
+  text-align: left;
 }
 
 .contents h3 {
-  text-align: center;
+  text-align: left;
 }
 
 .contents p {
-  text-align: center;
+  text-align: left;
 }
 
 .contents a:hover {
@@ -47,6 +47,10 @@
   padding-right: 6px;
 }
 
+.ul {
+  margin: 0;
+  padding: 0;
+}
 .ul li {
   list-style: none;
 }
