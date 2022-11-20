@@ -38,7 +38,8 @@ const Home: NextPage = () => {
             <li><a href="https://kasupekira.com">技術ブログ</a></li>
             <li><a href="https://qiita.com/NoriakiOshita">Qiita</a></li>
           </ul>
-          <h3>現在は積極的に仕事の募集はしておりません。</h3>
+          <h3>お問合せ</h3>
+          <p>oshita-n@whispon.com</p>
         </div>
       </main>
 
