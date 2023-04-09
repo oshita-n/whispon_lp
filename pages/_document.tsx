@@ -17,6 +17,8 @@ class MyDocument extends Document {
           <meta property="og:locale" content="ja_JP" />
           <meta property="og:type" content="article" />
           <meta property="og:url" content="https://whispon.com/" />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
           <meta property="og:image" content="https://whispon.com/images/zenai_ogp.png" />
           <meta name="twitter:image" content="https://whispon.com/images/zenai_ogp.png" />
           <meta name="twitter:description" content="禅AI" />
