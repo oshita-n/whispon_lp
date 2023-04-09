@@ -37,6 +37,7 @@ const Home: NextPage = () => {
           <h3>ブログ</h3>
           <ul className={styles.ul}>
             <li><a href="https://noriakioshita.com/">ブログ</a></li>
+            <li><a href="https://huggingface.co/oshita-n">HuggingFace</a></li>
             <li><a href="https://qiita.com/NoriakiOshita">Qiita</a></li>
           </ul>
           <h3>お問合せ</h3>
