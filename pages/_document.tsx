@@ -17,7 +17,7 @@ class MyDocument extends Document {
           <meta property="og:locale" content="ja_JP" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://whispon.com/" />
-          <meta property="og:image" content="https://whispon.com/images/zenAI.png" />
+          <meta property="og:image" content="https://whispon.com/images/zenai_ogp.png" />
           {/* OGP タグ ここまで */}
         </Head>
         <body>
