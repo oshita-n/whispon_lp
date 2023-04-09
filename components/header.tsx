@@ -6,12 +6,12 @@ const Header: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Whispon合同会社</title>
-        <meta name="description" content="Whispon合同会社" />
+        <title>禅AI</title>
+        <meta name="description" content="禅AI" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header_logo}>
-        <img src="/whispon_logo.png" width="160px" />
+        <img src="/zenAI.png" width="160px" />
       </header>
     </div>
   )
