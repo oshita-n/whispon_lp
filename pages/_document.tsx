@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
           {/* OGP タグ */}
           <meta property="og:title" content="禅AI" />
-          <meta property="og:description" content="禅AIでは、AI開発をしています。" />
+          <meta property="og:description" content="禅AIで生きることが楽しくなるプロダクト開発" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://whispon.com/" />
           <meta property="og:image" content="https://whispon.com/images/zenAI.png" />
