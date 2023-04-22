@@ -12,10 +12,9 @@ if (process.browser) {
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Header />
       <main className={styles.main}>
         <div className={styles.contents}>
-          <h2>禅AI(個人事業)&nbsp;&nbsp;&nbsp;&nbsp;大下範晃</h2>
+        <Header />
           <p>
           勤務表の作成アルゴリズム、点群も含めたさまざまなデータのセグメンテーション、生成AIなどを開発してきました。
           <br/>
@@ -41,7 +40,7 @@ const Home: NextPage = () => {
             <li><a href="https://qiita.com/NoriakiOshita">Qiita</a></li>
           </ul>
           <h3>お問合せ</h3>
-          <p>oshita-n@whispon.com</p>
+          <p>大下範晃<br/>oshita-n@whispon.com</p>
         </div>
       </main>
 

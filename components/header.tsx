@@ -6,12 +6,12 @@ const Header: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>禅AI</title>
-        <meta name="description" content="禅AI" />
+        <title>prototype</title>
+        <meta name="description" content="prototype" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header_logo}>
-        <img src="/zenAI.png" width="160px" />
+        <img src="/prototype.png" width="160px" />
       </header>
     </div>
   )
