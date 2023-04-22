@@ -20,7 +20,7 @@ class MyDocument extends Document {
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta property="og:image" content="https://whispon.com/images/prototype_ogp.png" />
-          <meta name="twitter:image" content="https://whispon.com/images/prototype_gp.png" />
+          <meta name="twitter:image" content="https://whispon.com/images/prototype_ogp.png" />
           <meta name="twitter:description" content="prototype" />
           <meta name="twitter:title" content="prototypeで生きることが楽しくなるプロダクト開発" />
           {/* OGP タグ ここまで */}
