@@ -24,11 +24,12 @@ const Home: NextPage = () => {
             <li>OSSソフトウェアの提供</li>
             <li>勉強会の実施</li>
           </ul>
-
-          <h3>お問合せ</h3>
-          <p>禅AI 代表 大下範晃<br/>oshita-n@whispon.com</p>
+          
           <h3>Discord</h3>
           <p>ご自由にdiscordサーバーにお入りください。<br/><a href="https://discord.gg/pCF7cK6s">https://discord.gg/pCF7cK6s</a></p>
+          
+          <h3>お問合せ</h3>
+          <p>禅AI 代表 大下範晃<br/>oshita-n@whispon.com</p>
         </div>
       </main>
 
