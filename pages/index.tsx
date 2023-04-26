@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           </p>
           <h3>活動内容</h3>
           <ul className={styles.ul}>
-            <li>AI技術の議論の場を提供</li>
+            <li>AI技術の議論の場を提供（Discord）</li>
             <li>OSSソフトウェアの提供</li>
             <li>勉強会の実施</li>
           </ul>
