@@ -5,7 +5,7 @@ const Footer: NextPage = () => {
   return (
     <div>
       <footer className={styles.footer}>
-        <p>© 2021 prototype</p>
+        <p>© 2022 禅AI</p>
       </footer>
     </div>
   )
