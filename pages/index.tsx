@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             <li>2019-2020年 株式会社アイデミー データサイエンティスト、コンテンツ編集員</li>
             <li>2020-2022年6月 個人事業主（AI、機械学習、数理最適化、フロントエンドなど）</li>
             <li>2022年12月 Whispon合同会社 休業</li>
-            <li>2022年12月~ 禅AI</li>
+            <li>2022年12月~ 禅AI(非営利のAIコミュニティー)</li>
           </ul>
         
           {/* <h3>サービス</h3>
@@ -41,6 +41,7 @@ const Home: NextPage = () => {
           </ul>
           <h3>お問合せ</h3>
           <p>禅AI 大下範晃<br/>oshita-n@whispon.com</p>
+          <p>ご自由にdiscordサーバーにお入りください。<br/><a href="https://discord.gg/pCF7cK6s">https://discord.gg/pCF7cK6s</a></p>
         </div>
       </main>
 
