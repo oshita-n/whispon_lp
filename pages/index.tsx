@@ -16,31 +16,18 @@ const Home: NextPage = () => {
         <div className={styles.contents}>
         <Header />
           <p>
-          勤務表の作成アルゴリズム、点群も含めたさまざまなデータのセグメンテーション、生成AIなどを開発してきました。
-          <br/>
-          お気軽にお問合せください。
+          禅AIは、AIを使って人々の生活を楽しくしていくために存在しています。
           </p>
-          <h3>経歴</h3>
+          <h3>活動内容</h3>
           <ul className={styles.ul}>
-            <li>2018年 北海道情報大学経営情報学部 システム情報学科 卒業</li>
-            <li>2018-2019年 AIQ株式会社 機械学習エンジニア</li>
-            <li>2019年 株式会社調和技研 機械学習エンジニア</li>
-            <li>2019-2020年 株式会社アイデミー データサイエンティスト、コンテンツ編集員</li>
-            <li>2020-2022年6月 個人事業主（AI、機械学習、数理最適化、フロントエンドなど）</li>
-            <li>2022年12月 Whispon合同会社 休業</li>
-            <li>2022年12月~ 禅AI(非営利のAIコミュニティー)</li>
+            <li>AI技術の議論の場を提供</li>
+            <li>OSSソフトウェアの提供</li>
+            <li>勉強会の実施</li>
           </ul>
-        
-          {/* <h3>サービス</h3>
-          <a href="https://otooto.dev">テキスト読み上げサービス「Oto」</a> */}
-          <h3>ブログ</h3>
-          <ul className={styles.ul}>
-            <li><a href="https://noriakioshita.com/">ブログ</a></li>
-            <li><a href="https://huggingface.co/oshita-n">HuggingFace</a></li>
-            <li><a href="https://qiita.com/NoriakiOshita">Qiita</a></li>
-          </ul>
+
           <h3>お問合せ</h3>
-          <p>禅AI 大下範晃<br/>oshita-n@whispon.com</p>
+          <p>禅AI 代表 大下範晃<br/>oshita-n@whispon.com</p>
+          <h3>Discord</h3>
           <p>ご自由にdiscordサーバーにお入りください。<br/><a href="https://discord.gg/pCF7cK6s">https://discord.gg/pCF7cK6s</a></p>
         </div>
       </main>
