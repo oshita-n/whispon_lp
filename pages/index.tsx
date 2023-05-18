@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           </ul>
           
           <h3>Discord</h3>
-          <p>ご自由にdiscordサーバーにお入りください。<br/><a href="https://discord.gg/pCF7cK6s">https://discord.gg/pCF7cK6s</a></p>
+          <p>ご自由にdiscordサーバーにお入りください。<br/><a href="https://discord.gg/fZUDURhG3w">https://discord.gg/fZUDURhG3w</a></p>
           
           <h3>お問合せ</h3>
           <p>禅AI 代表 大下範晃<br/>oshita-n@whispon.com</p>
